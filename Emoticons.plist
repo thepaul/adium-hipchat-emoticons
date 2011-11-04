@@ -1,0 +1,652 @@
+{
+	AdiumSetVersion = "1.3";
+	Emoticons = {
+		"android.png" = {
+			Equivalents = (
+				"(android)",
+			);
+			Name = "(android)";
+		};
+		"angry.png" = {
+			Equivalents = (
+				">:-(",
+				">:(",
+			);
+			Name = ">:-(";
+		};
+		"areyoukiddingme.png" = {
+			Equivalents = (
+				"(areyoukiddingme)",
+			);
+			Name = "(areyoukiddingme)";
+		};
+		"awyea.png" = {
+			Equivalents = (
+				"(awyeah)",
+			);
+			Name = "(awyeah)";
+		};
+		"badpokerface.png" = {
+			Equivalents = (
+				"(badpokerface)",
+			);
+			Name = "(badpokerface)";
+		};
+		"basket.png" = {
+			Equivalents = (
+				"(basket)",
+			);
+			Name = "(basket)";
+		};
+		"beer.png" = {
+			Equivalents = (
+				"(beer)",
+			);
+			Name = "(beer)";
+		};
+		"bigsmile.png" = {
+			Equivalents = (
+				":-D",
+				":D",
+			);
+			Name = ":-D";
+		};
+		"bumble.png" = {
+			Equivalents = (
+				"(bumble)",
+			);
+			Name = "(bumble)";
+		};
+		"bunny.png" = {
+			Equivalents = (
+				"(bunny)",
+			);
+			Name = "(bunny)";
+		};
+		"cadbury.png" = {
+			Equivalents = (
+				"(cadbury)",
+			);
+			Name = "(cadbury)";
+		};
+		"cake.png" = {
+			Equivalents = (
+				"(cake)",
+			);
+			Name = "(cake)";
+		};
+		"candycorn.png" = {
+			Equivalents = (
+				"(candycorn)",
+			);
+			Name = "(candycorn)";
+		};
+		"caruso.png" = {
+			Equivalents = (
+				"(caruso)",
+			);
+			Name = "(caruso)";
+		};
+		"cerealguy.png" = {
+			Equivalents = (
+				"(cereal)",
+			);
+			Name = "(cereal)";
+		};
+		"challengeaccepted.png" = {
+			Equivalents = (
+				"(challengeaccepted)",
+			);
+			Name = "(challengeaccepted)";
+		};
+		"chewy.png" = {
+			Equivalents = (
+				"(chewie)",
+			);
+			Name = "(chewie)";
+		};
+		"chocobunny.png" = {
+			Equivalents = (
+				"(chocobunny)",
+			);
+			Name = "(chocobunny)";
+		};
+		"cholo.gif" = {
+			Equivalents = (
+				"(cholo)",
+			);
+			Name = "(cholo)";
+		};
+		"chompy.gif" = {
+			Equivalents = (
+				"(chompy)",
+			);
+			Name = "(chompy)";
+		};
+		"chris.png" = {
+			Equivalents = (
+				"(chris)",
+			);
+			Name = "(chris)";
+		};
+		"coffee.png" = {
+			Equivalents = (
+				"(coffee)",
+			);
+			Name = "(coffee)";
+		};
+		"content.png" = {
+			Equivalents = (
+				"(content)",
+			);
+			Name = "(content)";
+		};
+		"cool.png" = {
+			Equivalents = (
+				"8-)",
+				"8)",
+			);
+			Name = "8-)";
+		};
+		"cornelius.png" = {
+			Equivalents = (
+				"(cornelius)",
+			);
+			Name = "(cornelius)";
+		};
+		"cry.png" = {
+			Equivalents = (
+				":'(",
+			);
+			Name = ":'(";
+		};
+		"disapproval.png" = {
+			Equivalents = (
+				"(disapproval)",
+			);
+			Name = "(disapproval)";
+		};
+		"dosequis.png" = {
+			Equivalents = (
+				"(dosequis)",
+			);
+			Name = "(dosequis)";
+		};
+		"ducreux.png" = {
+			Equivalents = (
+				"(ducreux)",
+			);
+			Name = "(ducreux)";
+		};
+		"dumbbitch.png" = {
+			Equivalents = (
+				"(dumb)",
+			);
+			Name = "(dumb)";
+		};
+		"embarrassed.png" = {
+			Equivalents = (
+				"(embarrassed)",
+			);
+			Name = "(embarrassed)";
+		};
+		"facepalm.png" = {
+			Equivalents = (
+				"(facepalm)",
+			);
+			Name = "(facepalm)";
+		};
+		"farnsworth.png" = {
+			Equivalents = (
+				"(goodnews)",
+			);
+			Name = "(goodnews)";
+		};
+		"footinmouth.png" = {
+			Equivalents = (
+				":#",
+			);
+			Name = ":#";
+		};
+		"foreveralone.png" = {
+			Equivalents = (
+				"(foreveralone)",
+			);
+			Name = "(foreveralone)";
+		};
+		"frown.png" = {
+			Equivalents = (
+				":(",
+			);
+			Name = ":(";
+		};
+		"fry.png" = {
+			Equivalents = (
+				"(fry)",
+			);
+			Name = "(fry)";
+		};
+		"fuckyeah.png" = {
+			Equivalents = (
+				"(fuckyeah)",
+			);
+			Name = "(fuckyeah)";
+		};
+		"garret.png" = {
+			Equivalents = (
+				"(garret)",
+			);
+			Name = "(garret)";
+		};
+		"gasp.png" = {
+			Equivalents = (
+				":o",
+			);
+			Name = ":o";
+		};
+		"gates.png" = {
+			Equivalents = (
+				"(gates)",
+			);
+			Name = "(gates)";
+		};
+		"gaytroll.gif" = {
+			Equivalents = (
+				"(gaytroll)",
+			);
+			Name = "(gaytroll)";
+		};
+		"ghost.png" = {
+			Equivalents = (
+				"(ghost)",
+			);
+			Name = "(ghost)";
+		};
+		"greenbeer.png" = {
+			Equivalents = (
+				"(greenbeer)",
+			);
+			Name = "(greenbeer)";
+		};
+		"gtfo.png" = {
+			Equivalents = (
+				"(huh)",
+			);
+			Name = "(huh)";
+		};
+		"haveaseat.png" = {
+			Equivalents = (
+				"(haveaseat)",
+			);
+			Name = "(haveaseat)";
+		};
+		"heart.png" = {
+			Equivalents = (
+				"(heart)",
+			);
+			Name = "(heart)";
+		};
+		"hipchat.png" = {
+			Equivalents = (
+				"(hipchat)",
+			);
+			Name = "(hipchat)";
+		};
+		"hipster.png" = {
+			Equivalents = (
+				"(hipster)",
+			);
+			Name = "(hipster)";
+		};
+		"ilied.png" = {
+			Equivalents = (
+				"(ilied)",
+			);
+			Name = "(ilied)";
+		};
+		"innocent.png" = {
+			Equivalents = (
+				"O:)",
+			);
+			Name = "O:)";
+		};
+		"itsatrap.png" = {
+			Equivalents = (
+				"(itsatrap)",
+			);
+			Name = "(itsatrap)";
+		};
+		"jackie.png" = {
+			Equivalents = (
+				"(jackie)",
+			);
+			Name = "(jackie)";
+		};
+		"jobs.png" = {
+			Equivalents = (
+				"(jobs)",
+			);
+			Name = "(jobs)";
+		};
+		"kennypowers.png" = {
+			Equivalents = (
+				"(kennypowers)",
+			);
+			Name = "(kennypowers)";
+		};
+		"kiss.png" = {
+			Equivalents = (
+				":-*",
+			);
+			Name = ":-*";
+		};
+		"krang.gif" = {
+			Equivalents = (
+				"(krang)",
+			);
+			Name = "(krang)";
+		};
+		"kwanzaa.png" = {
+			Equivalents = (
+				"(kwanzaa)",
+			);
+			Name = "(kwanzaa)";
+		};
+		"lincoln.png" = {
+			Equivalents = (
+				"(lincoln)",
+			);
+			Name = "(lincoln)";
+		};
+		"lol.png" = {
+			Equivalents = (
+				"(lol)",
+			);
+			Name = "(lol)";
+		};
+		"lolwut.png" = {
+			Equivalents = (
+				"(lolwut)",
+			);
+			Name = "(lolwut)";
+		};
+		"megusta.png" = {
+			Equivalents = (
+				"(megusta)",
+			);
+			Name = "(megusta)";
+		};
+		"menorah.png" = {
+			Equivalents = (
+				"(menorah)",
+			);
+			Name = "(menorah)";
+		};
+		"mike.png" = {
+			Equivalents = (
+				"(arrington)",
+			);
+			Name = "(arrington)";
+		};
+		"moneymouth.png" = {
+			Equivalents = (
+				":$",
+			);
+			Name = ":$";
+		};
+		"notbad.png" = {
+			Equivalents = (
+				"(notbad)",
+			);
+			Name = "(notbad)";
+		};
+		"ohcrap.png" = {
+			Equivalents = (
+				"(ohcrap)",
+			);
+			Name = "(ohcrap)";
+		};
+		"okay.png" = {
+			Equivalents = (
+				"(okay)",
+			);
+			Name = "(okay)";
+		};
+		"omg.png" = {
+			Equivalents = (
+				"(omg)",
+			);
+			Name = "(omg)";
+		};
+		"oops.png" = {
+			Equivalents = (
+				"(oops)",
+			);
+			Name = "(oops)";
+		};
+		"pbr.png" = {
+			Equivalents = (
+				"(pbr)",
+			);
+			Name = "(pbr)";
+		};
+		"pete.png" = {
+			Equivalents = (
+				"(pete)",
+			);
+			Name = "(pete)";
+		};
+		"philosoraptor.png" = {
+			Equivalents = (
+				"(philosoraptor)",
+			);
+			Name = "(philosoraptor)";
+		};
+		"pirate.gif" = {
+			Equivalents = (
+				"(pirate)",
+			);
+			Name = "(pirate)";
+		};
+		"pokerface.png" = {
+			Equivalents = (
+				"(pokerface)",
+			);
+			Name = "(pokerface)";
+		};
+		"poo.png" = {
+			Equivalents = (
+				"(poo)",
+			);
+			Name = "(poo)";
+		};
+		"present.png" = {
+			Equivalents = (
+				"(present)",
+			);
+			Name = "(present)";
+		};
+		"pumpkin.png" = {
+			Equivalents = (
+				"(pumpkin)",
+			);
+			Name = "(pumpkin)";
+		};
+		"rageguy.png" = {
+			Equivalents = (
+				"(rageguy)",
+			);
+			Name = "(rageguy)";
+		};
+		"rebeccablack.png" = {
+			Equivalents = (
+				"(rebeccablack)",
+			);
+			Name = "(rebeccablack)";
+		};
+		"reddit.png" = {
+			Equivalents = (
+				"(reddit)",
+			);
+			Name = "(reddit)";
+		};
+		"rudolph.png" = {
+			Equivalents = (
+				"(rudolph)",
+			);
+			Name = "(rudolph)";
+		};
+		"sadpanda.png" = {
+			Equivalents = (
+				"(sadpanda)",
+			);
+			Name = "(sadpanda)";
+		};
+		"sadtroll.png" = {
+			Equivalents = (
+				"(sadtroll)",
+			);
+			Name = "(sadtroll)";
+		};
+		"samuel.png" = {
+			Equivalents = (
+				"(samuel)",
+			);
+			Name = "(samuel)";
+		};
+		"santa.png" = {
+			Equivalents = (
+				"(santa)",
+			);
+			Name = "(santa)";
+		};
+		"sealed.png" = {
+			Equivalents = (
+				":Z",
+			);
+			Name = ":Z";
+		};
+		"seomoz.png" = {
+			Equivalents = (
+				"(seomoz)",
+			);
+			Name = "(seomoz)";
+		};
+		"shamrock.png" = {
+			Equivalents = (
+				"(shamrock)",
+			);
+			Name = "(shamrock)";
+		};
+		"slant.png" = {
+			Equivalents = (
+				":/",
+			);
+			Name = ":/";
+		};
+		"smile.png" = {
+			Equivalents = (
+				":-)",
+				":)",
+			);
+			Name = ":-)";
+		};
+		"straightface.png" = {
+			Equivalents = (
+				":|",
+			);
+			Name = ":|";
+		};
+		"sweetjesus.png" = {
+			Equivalents = (
+				"(sweetjesus)",
+			);
+			Name = "(sweetjesus)";
+		};
+		"taft.png" = {
+			Equivalents = (
+				"(taft)",
+			);
+			Name = "(taft)";
+		};
+		"thumbs_down.png" = {
+			Equivalents = (
+				"(thumbsdown)",
+			);
+			Name = "(thumbsdown)";
+		};
+		"thumbs_up.png" = {
+			Equivalents = (
+				"(thumbsup)",
+			);
+			Name = "(thumbsup)";
+		};
+		"tongue.png" = {
+			Equivalents = (
+				":p",
+			);
+			Name = ":p";
+		};
+		"tree.png" = {
+			Equivalents = (
+				"(tree)",
+			);
+			Name = "(tree)";
+		};
+		"troll.png" = {
+			Equivalents = (
+				"(troll)",
+			);
+			Name = "(troll)";
+		};
+		"turkey.png" = {
+			Equivalents = (
+				"(turkey)",
+			);
+			Name = "(turkey)";
+		};
+		"washington.png" = {
+			Equivalents = (
+				"(washington)",
+			);
+			Name = "(washington)";
+		};
+		"wink.png" = {
+			Equivalents = (
+				";-)",
+				";)",
+			);
+			Name = ";-)";
+		};
+		"wtf.png" = {
+			Equivalents = (
+				"(wtf)",
+			);
+			Name = "(wtf)";
+		};
+		"yey.png" = {
+			Equivalents = (
+				"(yey)",
+			);
+			Name = "(yey)";
+		};
+		"yuno.png" = {
+			Equivalents = (
+				"(yuno)",
+			);
+			Name = "(yuno)";
+		};
+		"zoidberg.png" = {
+			Equivalents = (
+				"(zoidberg)",
+			);
+			Name = "(zoidberg)";
+		};
+		"zzz.gif" = {
+			Equivalents = (
+				"(zzz)",
+			);
+			Name = "(zzz)";
+		};
+	};
+}
