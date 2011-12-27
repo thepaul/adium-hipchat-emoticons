@@ -785,6 +785,15 @@
         <key>Name</key>
         <string>(omg)</string>
       </dict>
+        <key>orly.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(orly)</string>
+        </array>
+        <key>Name</key>
+        <string>(orly)</string>
+      </dict>
         <key>pbr.png</key>
       <dict>
         <key>Equivalents</key>
