@@ -6,191 +6,6 @@
     <real>1.3</real>
     <key>Emoticons</key>
     <dict>
-        <key>smile.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:-)</string>
-          <string>:)</string>
-        </array>
-        <key>Name</key>
-        <string>:-)</string>
-      </dict>
-        <key>gasp.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:o</string>
-        </array>
-        <key>Name</key>
-        <string>:o</string>
-      </dict>
-        <key>moneymouth.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:$</string>
-        </array>
-        <key>Name</key>
-        <string>:$</string>
-      </dict>
-        <key>slant.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:/</string>
-        </array>
-        <key>Name</key>
-        <string>:/</string>
-      </dict>
-        <key>frown.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:(</string>
-        </array>
-        <key>Name</key>
-        <string>:(</string>
-      </dict>
-        <key>kiss.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:-*</string>
-        </array>
-        <key>Name</key>
-        <string>:-*</string>
-      </dict>
-        <key>footinmouth.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:#</string>
-        </array>
-        <key>Name</key>
-        <string>:#</string>
-      </dict>
-        <key>cry.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:'(</string>
-        </array>
-        <key>Name</key>
-        <string>:'(</string>
-      </dict>
-        <key>wink.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>;-)</string>
-        </array>
-        <key>Name</key>
-        <string>;-)</string>
-      </dict>
-        <key>angry.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>>:-(</string>
-        </array>
-        <key>Name</key>
-        <string>>:-(</string>
-      </dict>
-        <key>embarrassed.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(embarrassed)</string>
-        </array>
-        <key>Name</key>
-        <string>(embarrassed)</string>
-      </dict>
-        <key>sealed.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:Z</string>
-        </array>
-        <key>Name</key>
-        <string>:Z</string>
-      </dict>
-        <key>tongue.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:p</string>
-          <string>:P</string>
-        </array>
-        <key>Name</key>
-        <string>:p</string>
-      </dict>
-        <key>cool.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>8-)</string>
-          <string>8)</string>
-        </array>
-        <key>Name</key>
-        <string>8-)</string>
-      </dict>
-        <key>innocent.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>O:)</string>
-        </array>
-        <key>Name</key>
-        <string>O:)</string>
-      </dict>
-        <key>bigsmile.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:-D</string>
-          <string>:D</string>
-        </array>
-        <key>Name</key>
-        <string>:-D</string>
-      </dict>
-        <key>oops.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(oops)</string>
-        </array>
-        <key>Name</key>
-        <string>(oops)</string>
-      </dict>
-        <key>straightface.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:|</string>
-          <string>:-|</string>
-        </array>
-        <key>Name</key>
-        <string>:|</string>
-      </dict>
-        <key>thumbs_up.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(thumbsup)</string>
-        </array>
-        <key>Name</key>
-        <string>(thumbsup)</string>
-      </dict>
-        <key>thumbs_down.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(thumbsdown)</string>
-        </array>
-        <key>Name</key>
-        <string>(thumbsdown)</string>
-      </dict>
         <key>allthethings.png</key>
       <dict>
         <key>Equivalents</key>
@@ -236,6 +51,15 @@
         <key>Name</key>
         <string>(ashton)</string>
       </dict>
+        <key>atlassian.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(atlassian)</string>
+        </array>
+        <key>Name</key>
+        <string>(atlassian)</string>
+      </dict>
         <key>awyea.png</key>
       <dict>
         <key>Equivalents</key>
@@ -271,6 +95,24 @@
         </array>
         <key>Name</key>
         <string>(beer)</string>
+      </dict>
+        <key>bitbucket.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(bitbucket)</string>
+        </array>
+        <key>Name</key>
+        <string>(bitbucket)</string>
+      </dict>
+        <key>boom.gif</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(boom)</string>
+        </array>
+        <key>Name</key>
+        <string>(boom)</string>
       </dict>
         <key>bumble.png</key>
       <dict>
@@ -326,6 +168,15 @@
         <key>Name</key>
         <string>(caruso)</string>
       </dict>
+        <key>ceilingcat.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(ceilingcat)</string>
+        </array>
+        <key>Name</key>
+        <string>(ceilingcat)</string>
+      </dict>
         <key>cerealguy.png</key>
       <dict>
         <key>Equivalents</key>
@@ -361,15 +212,6 @@
         </array>
         <key>Name</key>
         <string>(chocobunny)</string>
-      </dict>
-        <key>cholo.gif</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(cholo)</string>
-        </array>
-        <key>Name</key>
-        <string>(cholo)</string>
       </dict>
         <key>chompy.gif</key>
       <dict>
@@ -416,6 +258,15 @@
         <key>Name</key>
         <string>(cornelius)</string>
       </dict>
+        <key>dance.gif</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(dance)</string>
+        </array>
+        <key>Name</key>
+        <string>(dance)</string>
+      </dict>
         <key>dealwithit.gif</key>
       <dict>
         <key>Equivalents</key>
@@ -452,6 +303,15 @@
         <key>Name</key>
         <string>(dosequis)</string>
       </dict>
+        <key>drevil.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(drevil)</string>
+        </array>
+        <key>Name</key>
+        <string>(drevil)</string>
+      </dict>
         <key>ducreux.png</key>
       <dict>
         <key>Equivalents</key>
@@ -469,6 +329,15 @@
         </array>
         <key>Name</key>
         <string>(dumb)</string>
+      </dict>
+        <key>embarrassed.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(embarrassed)</string>
+        </array>
+        <key>Name</key>
+        <string>(embarrassed)</string>
       </dict>
         <key>facepalm.png</key>
       <dict>
@@ -514,15 +383,6 @@
         </array>
         <key>Name</key>
         <string>(fry)</string>
-      </dict>
-        <key>rageguy.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(fu)</string>
-        </array>
-        <key>Name</key>
-        <string>(fu)</string>
       </dict>
         <key>fuckyeah.png</key>
       <dict>
@@ -592,6 +452,7 @@
         <key>Equivalents</key>
         <array>
           <string>(gtfo)</string>
+          <string>(huh)</string>
         </array>
         <key>Name</key>
         <string>(gtfo)</string>
@@ -632,14 +493,14 @@
         <key>Name</key>
         <string>(hipster)</string>
       </dict>
-        <key>gtfo.png</key>
+        <key>hubspot.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
-          <string>(huh)</string>
+          <string>(hubspot)</string>
         </array>
         <key>Name</key>
-        <string>(huh)</string>
+        <string>(hubspot)</string>
       </dict>
         <key>ilied.png</key>
       <dict>
@@ -776,6 +637,15 @@
         <key>Name</key>
         <string>(ohcrap)</string>
       </dict>
+        <key>ohgodwhy.jpeg</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(ohgodwhy)</string>
+        </array>
+        <key>Name</key>
+        <string>(ohgodwhy)</string>
+      </dict>
         <key>okay.png</key>
       <dict>
         <key>Equivalents</key>
@@ -793,6 +663,15 @@
         </array>
         <key>Name</key>
         <string>(omg)</string>
+      </dict>
+        <key>oops.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(oops)</string>
+        </array>
+        <key>Name</key>
+        <string>(oops)</string>
       </dict>
         <key>orly.png</key>
       <dict>
@@ -829,6 +708,15 @@
         </array>
         <key>Name</key>
         <string>(philosoraptor)</string>
+      </dict>
+        <key>pingpong.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(pingpong)</string>
+        </array>
+        <key>Name</key>
+        <string>(pingpong)</string>
       </dict>
         <key>pirate.gif</key>
       <dict>
@@ -880,6 +768,7 @@
         <key>Equivalents</key>
         <array>
           <string>(rageguy)</string>
+          <string>(fu)</string>
         </array>
         <key>Name</key>
         <string>(rageguy)</string>
@@ -1010,6 +899,24 @@
         <key>Name</key>
         <string>(taft)</string>
       </dict>
+        <key>thumbs_down.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(thumbsdown)</string>
+        </array>
+        <key>Name</key>
+        <string>(thumbsdown)</string>
+      </dict>
+        <key>thumbs_up.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(thumbsup)</string>
+        </array>
+        <key>Name</key>
+        <string>(thumbsup)</string>
+      </dict>
         <key>tree.png</key>
       <dict>
         <key>Equivalents</key>
@@ -1117,6 +1024,173 @@
         </array>
         <key>Name</key>
         <string>(zzz)</string>
+      </dict>
+        <key>cool.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>8)</string>
+          <string>8-)</string>
+        </array>
+        <key>Name</key>
+        <string>8)</string>
+      </dict>
+        <key>footinmouth.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:#</string>
+        </array>
+        <key>Name</key>
+        <string>:#</string>
+      </dict>
+        <key>moneymouth.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:$</string>
+        </array>
+        <key>Name</key>
+        <string>:$</string>
+      </dict>
+        <key>cry.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:'(</string>
+        </array>
+        <key>Name</key>
+        <string>:'(</string>
+      </dict>
+        <key>happytear.gif</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:')</string>
+        </array>
+        <key>Name</key>
+        <string>:')</string>
+      </dict>
+        <key>frown.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:(</string>
+        </array>
+        <key>Name</key>
+        <string>:(</string>
+      </dict>
+        <key>smile.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:)</string>
+          <string>:-)</string>
+          <string>=)</string>
+        </array>
+        <key>Name</key>
+        <string>:)</string>
+      </dict>
+        <key>kiss.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:-*</string>
+        </array>
+        <key>Name</key>
+        <string>:-*</string>
+      </dict>
+        <key>slant.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:/</string>
+        </array>
+        <key>Name</key>
+        <string>:/</string>
+      </dict>
+        <key>bigsmile.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:D</string>
+          <string>:-D</string>
+        </array>
+        <key>Name</key>
+        <string>:D</string>
+      </dict>
+        <key>sealed.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:Z</string>
+        </array>
+        <key>Name</key>
+        <string>:Z</string>
+      </dict>
+        <key>gasp.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:o</string>
+        </array>
+        <key>Name</key>
+        <string>:o</string>
+      </dict>
+        <key>tongue.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:p</string>
+        </array>
+        <key>Name</key>
+        <string>:p</string>
+      </dict>
+        <key>straightface.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:|</string>
+        </array>
+        <key>Name</key>
+        <string>:|</string>
+      </dict>
+        <key>wink.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>;)</string>
+          <string>;-)</string>
+        </array>
+        <key>Name</key>
+        <string>;)</string>
+      </dict>
+        <key>winktongue.gif</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>;p</string>
+        </array>
+        <key>Name</key>
+        <string>;p</string>
+      </dict>
+        <key>angry.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>>:-(</string>
+        </array>
+        <key>Name</key>
+        <string>>:-(</string>
+      </dict>
+        <key>innocent.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>O:)</string>
+        </array>
+        <key>Name</key>
+        <string>O:)</string>
       </dict>
     </dict>
   </dict>
