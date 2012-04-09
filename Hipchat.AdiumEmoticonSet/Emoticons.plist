@@ -60,6 +60,15 @@
         <key>Name</key>
         <string>(atlassian)</string>
       </dict>
+        <key>awthanks.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(awthanks)</string>
+        </array>
+        <key>Name</key>
+        <string>(awthanks)</string>
+      </dict>
         <key>awyea.png</key>
       <dict>
         <key>Equivalents</key>
@@ -68,6 +77,15 @@
         </array>
         <key>Name</key>
         <string>(awyeah)</string>
+      </dict>
+        <key>badass.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(badass)</string>
+        </array>
+        <key>Name</key>
+        <string>(badass)</string>
       </dict>
         <key>badpokerface.png</key>
       <dict>
@@ -511,6 +529,15 @@
         <key>Name</key>
         <string>(ilied)</string>
       </dict>
+        <key>indeed.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(indeed)</string>
+        </array>
+        <key>Name</key>
+        <string>(indeed)</string>
+      </dict>
         <key>itsatrap.png</key>
       <dict>
         <key>Equivalents</key>
@@ -898,6 +925,15 @@
         </array>
         <key>Name</key>
         <string>(taft)</string>
+      </dict>
+        <key>tea.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(tea)</string>
+        </array>
+        <key>Name</key>
+        <string>(tea)</string>
       </dict>
         <key>thumbs_down.png</key>
       <dict>
