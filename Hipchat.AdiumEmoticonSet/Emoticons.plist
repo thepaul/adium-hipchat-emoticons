@@ -745,6 +745,15 @@
         <key>Name</key>
         <string>(notsureifgusta)</string>
       </dict>
+        <key>obama.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(obama)</string>
+        </array>
+        <key>Name</key>
+        <string>(obama)</string>
+      </dict>
         <key>ohcrap.png</key>
       <dict>
         <key>Equivalents</key>
@@ -907,6 +916,15 @@
         </array>
         <key>Name</key>
         <string>(reddit)</string>
+      </dict>
+        <key>romney.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(romney)</string>
+        </array>
+        <key>Name</key>
+        <string>(romney)</string>
       </dict>
         <key>rudolph.png</key>
       <dict>
