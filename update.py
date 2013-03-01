@@ -7,5 +7,5 @@ from lib import options
 
 root_dir = os.path.dirname(__file__)
 
-emoticons = fetch_emoticons(options.user, options.password)
+emoticons = fetch_emoticons(options)
 build_bundle(emoticons, root_dir)
