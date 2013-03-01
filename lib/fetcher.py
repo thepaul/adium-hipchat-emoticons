@@ -1,19 +1,28 @@
 import urllib
 import json
-from ghost import Ghost
+import logging
+
+try:
+    from ghost import Ghost
+    ghost_available = True
+except ImportError:
+    ghost_available = False
 
 HIPCHAT_URL = 'https://hipchat.com/'
 
 def fetch_emoticons(options):
     if options.user and options.password:
         print 'using the webkit fetcher...'
-        return fetch_emoticons_ghost(options.user, options.password)
-    else:
-        print 'using JSON source from %s' % options.url
-        return fetch_emoticons_json(options.url)
+        if ghost_available:
+            return fetch_emoticons_ghost(options.user, options.password)
+        else:
+            print 'falling back to github (JSON) fetcher, since Ghost is not available...'
+
+    print 'using JSON source from %s' % options.url
+    return fetch_emoticons_json(options.url)
 
 def fetch_emoticons_ghost(username, password):
-    ghost = Ghost(wait_timeout=20)
+    ghost = Ghost()
 
     login(ghost, username, password)
     emoticons = dom_extract(ghost)
@@ -29,7 +38,6 @@ def fetch_emoticons_json(github_repo):
 
 def login(ghost, username, password):
     ghost.open(HIPCHAT_URL + 'sign_in')
-    #time.sleep(2)
     ghost.fill('form', {
         'email': username,
         'password': password
