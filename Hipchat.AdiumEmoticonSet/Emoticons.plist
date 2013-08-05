@@ -87,6 +87,15 @@
         <key>Name</key>
         <string>(badass)</string>
       </dict>
+        <key>badjokeeel-1375463017.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(badjokeeel)</string>
+        </array>
+        <key>Name</key>
+        <string>(badjokeeel)</string>
+      </dict>
         <key>badpokerface.png</key>
       <dict>
         <key>Equivalents</key>
@@ -114,7 +123,7 @@
         <key>Name</key>
         <string>(beer)</string>
       </dict>
-        <key>bitbucket.png</key>
+        <key>bitbucket-1349806629.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -131,6 +140,15 @@
         </array>
         <key>Name</key>
         <string>(boom)</string>
+      </dict>
+        <key>branch-1372171579.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(branch)</string>
+        </array>
+        <key>Name</key>
+        <string>(branch)</string>
       </dict>
         <key>bumble.png</key>
       <dict>
@@ -203,8 +221,8 @@
         </array>
         <key>Name</key>
         <string>(cereal)</string>
-      </dict>      
-	    <key>cerealspit.png</key>
+      </dict>
+        <key>cerealspit-1349463282.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -257,8 +275,8 @@
         </array>
         <key>Name</key>
         <string>(chris)</string>
-      </dict>        
-		<key>chucknorris.png</key>
+      </dict>
+        <key>chucknorris-1342735388.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -266,6 +284,15 @@
         </array>
         <key>Name</key>
         <string>(chucknorris)</string>
+      </dict>
+        <key>clarence-1369414730.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(clarence)</string>
+        </array>
+        <key>Name</key>
+        <string>(clarence)</string>
       </dict>
         <key>coffee.png</key>
       <dict>
@@ -276,6 +303,15 @@
         <key>Name</key>
         <string>(coffee)</string>
       </dict>
+        <key>confluence-1367948832.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(confluence)</string>
+        </array>
+        <key>Name</key>
+        <string>(confluence)</string>
+      </dict>
         <key>content.png</key>
       <dict>
         <key>Equivalents</key>
@@ -284,6 +320,15 @@
         </array>
         <key>Name</key>
         <string>(content)</string>
+      </dict>
+        <key>continue-1369948567.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(continue)</string>
+        </array>
+        <key>Name</key>
+        <string>(continue)</string>
       </dict>
         <key>cornelius.png</key>
       <dict>
@@ -384,6 +429,15 @@
         <key>Name</key>
         <string>(facepalm)</string>
       </dict>
+        <key>failed-1369948578.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(failed)</string>
+        </array>
+        <key>Name</key>
+        <string>(failed)</string>
+      </dict>
         <key>fap.png</key>
       <dict>
         <key>Equivalents</key>
@@ -393,7 +447,7 @@
         <key>Name</key>
         <string>(fap)</string>
       </dict>
- 	     <key>firstworldproblem.png</key>
+        <key>firstworldproblem-1342647915.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -438,7 +492,7 @@
         <key>Name</key>
         <string>(fuckyeah)</string>
       </dict>
-		<key>fwp.png</key>
+        <key>fwp-1342647892.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -447,7 +501,7 @@
         <key>Name</key>
         <string>(fwp)</string>
       </dict>
-      	<key>gangnamstyle.gif</key>
+        <key>gangnamstyle-1349387710.gif</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -473,15 +527,6 @@
         </array>
         <key>Name</key>
         <string>(gates)</string>
-      </dict>
-        <key>gaytroll.gif</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(gaytroll)</string>
-        </array>
-        <key>Name</key>
-        <string>(gaytroll)</string>
       </dict>
         <key>ghost.png</key>
       <dict>
@@ -509,6 +554,15 @@
         </array>
         <key>Name</key>
         <string>(greenbeer)</string>
+      </dict>
+        <key>grumpycat-1366734534.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(grumpycat)</string>
+        </array>
+        <key>Name</key>
+        <string>(grumpycat)</string>
       </dict>
         <key>gtfo.png</key>
       <dict>
@@ -556,15 +610,6 @@
         <key>Name</key>
         <string>(hipster)</string>
       </dict>
-        <key>hubspot.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(hubspot)</string>
-        </array>
-        <key>Name</key>
-        <string>(hubspot)</string>
-      </dict>
         <key>ilied.png</key>
       <dict>
         <key>Equivalents</key>
@@ -583,7 +628,7 @@
         <key>Name</key>
         <string>(indeed)</string>
       </dict>
-      <key>iseewhatyoudidthere.png</key>
+        <key>iseewhatyoudidthere-1348262983.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -610,7 +655,7 @@
         <key>Name</key>
         <string>(jackie)</string>
       </dict>
-      <key>jira.png</key>
+        <key>jira-1350074257.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -619,7 +664,7 @@
         <key>Name</key>
         <string>(jira)</string>
       </dict>
-      	<key>jobs.png</key>
+        <key>jobs.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -700,6 +745,15 @@
         <key>Name</key>
         <string>(menorah)</string>
       </dict>
+        <key>mindblown-1374883007.gif</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(mindblown)</string>
+        </array>
+        <key>Name</key>
+        <string>(mindblown)</string>
+      </dict>
         <key>ninja.png</key>
       <dict>
         <key>Equivalents</key>
@@ -727,7 +781,7 @@
         <key>Name</key>
         <string>(nothingtodohere)</string>
       </dict>
-        <key>notsureif.png</key>
+        <key>notsureif-1342015652.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -736,7 +790,7 @@
         <key>Name</key>
         <string>(notsureif)</string>
       </dict>
-        <key>notsureifgusta.png</key>
+        <key>notsureifgusta-1346093311.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -745,7 +799,7 @@
         <key>Name</key>
         <string>(notsureifgusta)</string>
       </dict>
-        <key>obama.png</key>
+        <key>obama-1352231289.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -917,7 +971,7 @@
         <key>Name</key>
         <string>(reddit)</string>
       </dict>
-        <key>romney.png</key>
+        <key>romney-1352231355.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -998,7 +1052,7 @@
         <key>Name</key>
         <string>(shamrock)</string>
       </dict>
-        <key>shrug.png</key>
+        <key>shrug-1349463255.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -1025,7 +1079,7 @@
         <key>Name</key>
         <string>(stare)</string>
       </dict>
-        <key>success.png</key>
+        <key>success-1348262443.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -1033,6 +1087,15 @@
         </array>
         <key>Name</key>
         <string>(success)</string>
+      </dict>
+        <key>successful-1369948592.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(successful)</string>
+        </array>
+        <key>Name</key>
+        <string>(successful)</string>
       </dict>
         <key>sweetjesus.png</key>
       <dict>
@@ -1043,7 +1106,7 @@
         <key>Name</key>
         <string>(sweetjesus)</string>
       </dict>
-        <key>tableflip.png</key>
+        <key>tableflip-1349463264.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -1088,6 +1151,15 @@
         <key>Name</key>
         <string>(thumbsup)</string>
       </dict>
+        <key>timeforthat-1366733895.gif</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(timeforthat)</string>
+        </array>
+        <key>Name</key>
+        <string>(timeforthat)</string>
+      </dict>
         <key>tree.png</key>
       <dict>
         <key>Equivalents</key>
@@ -1115,6 +1187,15 @@
         <key>Name</key>
         <string>(truestory)</string>
       </dict>
+        <key>trump-1352738237.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(trump)</string>
+        </array>
+        <key>Name</key>
+        <string>(trump)</string>
+      </dict>
         <key>turkey.png</key>
       <dict>
         <key>Equivalents</key>
@@ -1124,7 +1205,7 @@
         <key>Name</key>
         <string>(turkey)</string>
       </dict>
-        <key>twss.png</key>
+        <key>twss-1348262400.png</key>
       <dict>
         <key>Equivalents</key>
         <array>
@@ -1132,6 +1213,15 @@
         </array>
         <key>Name</key>
         <string>(twss)</string>
+      </dict>
+        <key>unknown-1369948620.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(unknown)</string>
+        </array>
+        <key>Name</key>
+        <string>(unknown)</string>
       </dict>
         <key>washington.png</key>
       <dict>
@@ -1177,6 +1267,15 @@
         </array>
         <key>Name</key>
         <string>(yodawg)</string>
+      </dict>
+        <key>yougotitdude-1368219664.gif</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(yougotitdude)</string>
+        </array>
+        <key>Name</key>
+        <string>(yougotitdude)</string>
       </dict>
         <key>yuno.png</key>
       <dict>
@@ -1280,15 +1379,6 @@
         <key>Name</key>
         <string>:-*</string>
       </dict>
-        <key>slant.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>:/</string>
-        </array>
-        <key>Name</key>
-        <string>:/</string>
-      </dict>
         <key>bigsmile.png</key>
       <dict>
         <key>Equivalents</key>
@@ -1307,6 +1397,15 @@
         </array>
         <key>Name</key>
         <string>:Z</string>
+      </dict>
+        <key>slant.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>:\</string>
+        </array>
+        <key>Name</key>
+        <string>:\</string>
       </dict>
         <key>gasp.png</key>
       <dict>
