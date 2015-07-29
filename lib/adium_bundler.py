@@ -6,8 +6,6 @@ from xml.sax.saxutils import unescape
 from StringIO import StringIO
 from collections import namedtuple
 
-hipchat_emoticons_github = 'https://github.com/henrik/hipchat-emoticons'
-hipchat_emoticons_dl = 'https://dujrsrsgsd3nh.cloudfront.net/img/emoticons'
 
 plist_header = '''\
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,19 +35,38 @@ plist_item = '''\
       </dict>
 '''
 
-Emot = namedtuple('Emot', ('name', 'imgbase', 'imgpath', 'shortcuts'))
+default_emoticon_set = [
+							['(zzz)', 'zzz.gif', '', ['(zzz)'] ],
+							['8)', 'cool.png', '', ['8)', '8-)'] ],
+							[':#', 'footinmouth.png', '', [':#'] ],
+							[':$', 'moneymouth.png', '', [':$'] ],
+							[':\'(', 'cry.png', '', [':\'('] ],
+							[':\')', 'happytear.gif', '', [':\')'] ],
+							[':(', 'frown.png', '', [':('] ],
+							[':)', 'smile.png', '', [':)', ':-)', '=)'] ],
+							[':-*', 'kiss.png', '', [':-*'] ],
+							[':D', 'bigsmile.png', '', [':D', ':-D'] ],
+							[':Z', 'sealed.png', '', [':Z'] ],
+							[':\\', 'slant.png', '', [':\\'] ],
+							[':o', 'gasp.png', '', [':o'] ],
+							[':p', 'tongue.png', '', [':p'] ],
+							[':|', 'straightface.png', '', [':|'] ],
+							[';)', 'wink.png', '', [';)', ';-)'] ],
+							[';p', 'winktongue.gif', '', [';p'] ],
+							['>:-(', 'angry.png', '', ['>:-('] ],
+							['O:)', 'innocent.png', '', ['O:)'] ] 
+                       ]
+
+Emot = namedtuple('Emot', ('name', 'imgbase', 'imgurl', 'shortcuts'))
 
 def merge_identical_emoticons(emoticons):
     emotedict = {}
-    for emot in emoticons:
-        imgname = os.path.basename(emot['image'])
+    for emot in emoticons['items']:
+        imgname = os.path.basename(emot['url'])
         emotobj = emotedict.get(imgname)
-        shortcut = unescape(emot['shortcut'])
-        # special case, work around bug(?) in henrik code
-        if shortcut == ':':
-            shortcut = ':/'
+        shortcut = '(' + unescape(emot['shortcut']) + ')'
         if emotobj is None:
-            emotedict[imgname] = emotobj = Emot(shortcut, imgname, emot['image'], [])
+            emotedict[imgname] = emotobj = Emot(shortcut, imgname, emot['url'], [])
         emotobj.shortcuts.append(shortcut)
     return sorted(emotedict.values())
 
@@ -62,22 +79,38 @@ def write_plist_key(f, emot):
 def write_plist_stream(f, emoticons):
     f.write(plist_header)
     for emot in emoticons:
-        write_plist_key(f, emot)
+        write_plist_key(f, emot)      
     f.write(plist_footer)
 
 def write_plist(plist_path, emoticons):
     with open(plist_path, 'w') as f:
         return write_plist_stream(f, emoticons)
 
-def update_icon(imgpath, destfile):
-    urllib.urlretrieve(hipchat_emoticons_dl + '/' + imgpath, destfile)
+def update_icon(imgurl, destfile):
+    if not os.path.isfile(destfile) and imgurl != '':
+       urllib.urlretrieve(imgurl, destfile)
+       
+def cleanup_bundle(bundle_path, emoticons):
+    emot_files = [ 'Emoticons.plist' ]
+    for emot in emoticons:
+        emot_files.append(emot.imgbase)
+    bundle_files = os.listdir(bundle_path)
+    for bundle_file in bundle_files:
+        bundle_file_full = os.path.join(bundle_path, bundle_file)
+        if (not bundle_file in emot_files) and os.path.isfile(bundle_file_full):
+            os.remove(bundle_file_full)
+    
 
 def update_bundle(bundle_path, emoticons):
     write_plist(os.path.join(bundle_path, 'Emoticons.plist'), emoticons)
     for emot in emoticons:
-        update_icon(emot.imgpath, os.path.join(bundle_path, emot.imgbase))
+        update_icon(emot.imgurl, os.path.join(bundle_path, emot.imgbase))
+    cleanup_bundle(bundle_path, emoticons)
 
 def build_bundle(emoticons, root_dir):
     emoticons = merge_identical_emoticons(emoticons)
     adium_bundle = os.path.join(root_dir, 'Hipchat.AdiumEmoticonSet')
+    for emot in default_emoticon_set:
+        emotobj = Emot._make(emot)
+        emoticons.append(emotobj)
     update_bundle(adium_bundle, emoticons)
