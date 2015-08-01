@@ -29,9 +29,8 @@ def fetch_emoticons_ghost(username, password):
 
     return emoticons
 
-def fetch_emoticons_json(github_repo):
-    raw_github = github_repo.replace('//github.com', '//raw.github.com')
-    stream = urllib.urlopen(raw_github)
+def fetch_emoticons_json(json_url):
+    stream = urllib.urlopen(json_url)
     emoticons = json.loads(stream.read())
 
     return emoticons

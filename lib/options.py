@@ -1,7 +1,7 @@
 from optparse import OptionParser
 from getpass import getpass
 
-DEFAULT_JSON_LOCATION = 'https://github.com/henrik/hipchat-emoticons/master/emoticons.json'
+DEFAULT_JSON_LOCATION = 'https://api.hipchat.com/v2/emoticon?max-results=1000&type=global&auth_token='
 
 usage = "usage: %prog [options]"
 
