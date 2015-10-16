@@ -19,7 +19,12 @@ def fetch_emoticons(options):
             print 'falling back to github (JSON) fetcher, since Ghost is not available...'
 
     print 'using JSON source from %s' % options.url
-    return fetch_emoticons_json(options.url)
+    params = urllib.urlencode({
+        "max-results": options.max,
+        "auth_token": options.token,
+        "type": options.type
+    })
+    return fetch_emoticons_json("{0}?{1}".format(options.url, params))
 
 def fetch_emoticons_ghost(username, password):
     ghost = Ghost()

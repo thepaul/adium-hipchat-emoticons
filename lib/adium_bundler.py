@@ -36,25 +36,27 @@ plist_item = '''\
 '''
 
 default_emoticon_set = [
-							['(zzz)', 'zzz.gif', '', ['(zzz)'] ],
+							['(thumbsup)', 'thumbs_up.png', '', ['(thumbsup)'] ],
+							['(thumbsdown)', 'thumbs_down.png', '', ['(thumbsdown)'] ],
+							['(embarrassed)', 'embarrassed.png', '', ['(embarrassed)'] ],
+							['(oops)', 'oops.png', '', ['(oops)'] ],
 							['8)', 'cool.png', '', ['8)', '8-)'] ],
 							[':#', 'footinmouth.png', '', [':#'] ],
 							[':$', 'moneymouth.png', '', [':$'] ],
 							[':\'(', 'cry.png', '', [':\'('] ],
-							[':\')', 'happytear.gif', '', [':\')'] ],
-							[':(', 'frown.png', '', [':('] ],
+							[':(', 'frown.png', '', [':(', ':-('] ],
 							[':)', 'smile.png', '', [':)', ':-)', '=)'] ],
 							[':-*', 'kiss.png', '', [':-*'] ],
 							[':D', 'bigsmile.png', '', [':D', ':-D'] ],
-							[':Z', 'sealed.png', '', [':Z'] ],
-							[':\\', 'slant.png', '', [':\\'] ],
-							[':o', 'gasp.png', '', [':o'] ],
-							[':p', 'tongue.png', '', [':p'] ],
-							[':|', 'straightface.png', '', [':|'] ],
+							[':Z', 'sealed.png', '', [':Z', ':-Z', ':z', ':-z'] ],
+							[':\\', 'slant.png', '', [':\\', ':/'] ],
+							[':o', 'gasp.png', '', [':o', ':-o'] ],
+							[':p', 'tongue.png', '', [':p', ':-p', ':P', ':-P'] ],
+							[':|', 'straightface.png', '', [':|', ':-|'] ],
 							[';)', 'wink.png', '', [';)', ';-)'] ],
-							[';p', 'winktongue.gif', '', [';p'] ],
+							[';p', 'winktongue.png', '', [';p', ';-p', ';P', ';-P'] ],
 							['>:-(', 'angry.png', '', ['>:-('] ],
-							['O:)', 'innocent.png', '', ['O:)'] ] 
+							['O:)', 'innocent.png', '', ['O:)', 'o:)'] ]
                        ]
 
 Emot = namedtuple('Emot', ('name', 'imgbase', 'imgurl', 'shortcuts'))

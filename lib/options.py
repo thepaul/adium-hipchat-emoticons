@@ -1,17 +1,23 @@
 from optparse import OptionParser
 from getpass import getpass
 
-DEFAULT_JSON_LOCATION = 'https://api.hipchat.com/v2/emoticon?max-results=1000&type=global&auth_token='
-
+ROOT_URL="https://api.hipchat.com/v2/emoticon"
 usage = "usage: %prog [options]"
 
 parser = OptionParser(usage=usage)
 parser.add_option('-u', '--user',
-        action='store', type='string', dest='user',
         help='HipChat username to be used')
+parser.add_option('-t', '--token',
+        help='Hipchat Auth Token')
+parser.add_option('-y', '--type',
+        choices=['global', 'group', 'all'], default='global',
+        help='specify which emoticons to get')
+parser.add_option('-m', '--max',
+        type=int, default=1000,
+        help='specify the max number of emoticons to return')
 parser.add_option('-f', '--url',
-        action='store', type='string', dest='url', default=DEFAULT_JSON_LOCATION,
-        help='specify location of JSON input (default: %s)' % DEFAULT_JSON_LOCATION)
+        default=ROOT_URL,
+        help='specify location of JSON input (default: %s)' % ROOT_URL)
 
 (options, args) = parser.parse_args()
 
