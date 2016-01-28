@@ -609,6 +609,15 @@
         <key>Name</key>
         <string>(dumb)</string>
       </dict>
+        <key>dwaboutit-1448505588.png</key>
+      <dict>
+        <key>Equivalents</key>
+        <array>
+          <string>(dwaboutit)</string>
+        </array>
+        <key>Name</key>
+        <string>(dwaboutit)</string>
+      </dict>
         <key>evilburns-1417755772.png</key>
       <dict>
         <key>Equivalents</key>
@@ -680,15 +689,6 @@
         </array>
         <key>Name</key>
         <string>(fireworks)</string>
-      </dict>
-        <key>firstworldproblems-1414025630.png</key>
-      <dict>
-        <key>Equivalents</key>
-        <array>
-          <string>(firstworldproblems)</string>
-        </array>
-        <key>Name</key>
-        <string>(firstworldproblems)</string>
       </dict>
         <key>fisheye-1431522386.png</key>
       <dict>
